@@ -1,10 +1,10 @@
 {
-  "name": "boilerplate-assignment",
+  "name": "knex-practice",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "blogful.js",
   "scripts": {
-    "test": "mocha --require test/setup.js",
-    "start": "node src/practice.js",
+    "test": "mocha --require test/articles-service.spec.js",
+    "start": "node src/blogful.js",
     "dev": "node src/server.js",
     "predrploy": "npm audit"
   },
